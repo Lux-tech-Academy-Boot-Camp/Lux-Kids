@@ -1,4 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
 * {
     padding: 0px;
     margin:0px;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+
+.banner{
+    height: 450px;
+    /* background-color: rgba(0, 76, 255, 0.65); */
+    background-color: #08001a;
+    width: 100%;
+    display: flex;
+    color:white;
+}
+
+.image{
+    height: 400px;
+    width:600px;
+}
+
+.barner-text{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size:18px;
+}
+
+.getStarted{
+  width: 200px;
+  height:60px;
+  border-radius: 10px;  
+color:black;
+}
+
+article{
+    font-size: 64px;
+    text-align: center;
+    display: grid;
+    place-items:center;
+    /* margin-right: 50px; */
+}
+.luxlogo{
+    /* padding: 0em 1em; */
+   align-content: center;
+   
+
+}
+.navItems{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.navItems,.nav-items{
+        padding: 0em 1em;
+    margin-bottom: 1em;
+}
+.courses-heading{
+    text-align: center;
+
+}
+.courses{
+   display:flex;
+   justify-content: space-around;
+     border-radius:2px blue;
+   font-size:16px;
+   
+}
+.python, .javascript,.typescript{
+    border:5px black solid;
+    margin:0 20px;
+}
+hr{
+    color:#08001a;
+}
+.footerItems{
+    display:flex;
+}
+.contact-us{
+justify-self:flex-end;
 }
