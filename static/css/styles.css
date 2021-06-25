@@ -159,3 +159,15 @@ justify-self:flex-end;
      padding: 10px;
      line-height: normal;
 }
+
+.fa{
+    
+    padding: 5px;
+    font-weight: bold;
+    
+
+}
+
+#fa{
+    font-size: 25px;
+}
