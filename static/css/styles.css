@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
 
 * {
+    font-family: 'Raleway', sans-serif;
     padding: 0px;
     margin:0px;
     list-style: none;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 24px;
+    
+    /*font-size: 24px;*/
 }
 
 
@@ -27,60 +28,134 @@
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    font-size:18px;
+    /*font-size:18px;*/
 }
 
 .getStarted{
   width: 200px;
   height:60px;
   border-radius: 10px;  
-color:black;
+  color:black;
 }
 
 article{
-    font-size: 64px;
+    /*font-size: 64px;*/
     text-align: center;
     display: grid;
     place-items:center;
     /* margin-right: 50px; */
 }
-.luxlogo{
-    /* padding: 0em 1em; */
-   align-content: center;
-   
+/*.header{
+    position: fixed;
+}*/
+.nav{
+    margin: 1em;
 
 }
-.navItems{
+
+.nav,.navItems{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-   
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
 }
-.navItems,.nav-items{
-        padding: 0em 1em;
-    margin-bottom: 1em;
+
+.nav, .luxLogo{
+    margin-left: 60px;
+    font-size: 20px;
+
+    color: #000060;
 }
+
+.navItems, .nav-items{
+    padding: 10px;
+    margin-right: 1em;
+
+    
+}
+
+.nav-items-bgcolor{
+    background-color: #000060;
+    color: #fff;
+    /*border-radius: 10px;*/
+}
+
+
+
 .courses-heading{
     text-align: center;
+    margin: 1em 0;
 
 }
 .courses{
    display:flex;
    justify-content: space-around;
      border-radius:2px blue;
-   font-size:16px;
+   /*font-size:16px;*/
+   margin: 1em 0;
    
 }
 .python, .javascript,.typescript{
     border:5px black solid;
     margin:0 20px;
 }
+
 hr{
-    color:#08001a;
+    border: 0.5px #d5d5d5 solid;
+    width: 99%;
+    margin: 10px 0;
 }
+
+.courses-heading hr{
+    width: 30%;
+    align-items: center;
+}
+
+.read-more-btn{
+    margin: 1.5em;
+    padding: 1em 4em;
+    border-radius: 2px;
+    border: none;
+}
+
+
 .footerItems{
     display:flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+    background-color: #08001a;
+    color: #fff;
+    margin-top: 2em;
+    margin-left: 0;
+    
 }
-.contact-us{
+.footerItems .footer-h1{
+    width: 100%;
+    text-align: left;
+}
+/*.contact-us{
 justify-self:flex-end;
+}*/
+
+.footer-article{
+  /*  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;*/
+   
+    padding: 2em 0;
+    margin: 2em 1em;
+    text-align: left;
+
+
+}
+
+
+.footer-article, .ul{
+     padding: 10px;
+     line-height: normal;
 }

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
 *{
+	font-family: 'Raleway', sans-serif;
 	--background: #08001a;
 	--font-color: #fff;
 	--font-size: 18px;
@@ -21,7 +24,7 @@ body{
 }
 
 .col-1, .col-inner{
-	font-size: 20px;
+	
 	padding: 0 2em;
 	margin: 2em 0;
 	font-weight: bold;
@@ -49,10 +52,12 @@ body{
 .about-barner, .about-text-wrapper{
 	margin: 0 1em 0;
 	padding: 0 1em 0;
+	text-align: left;
+	line-height: 1.5em;
 }
 .btn{
-	padding: 0.65em 3em;
-	margin: 0.5em;
+	padding: 5px 30px;
+	margin: 1em;
 	border-radius: 4px;
 	border: 0;
 	font-weight: bold;
