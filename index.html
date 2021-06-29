@@ -5,21 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
  
-    <header>
-      <nav>
-        <h2 class="luxlogo">Lux Academy</h2>
+    <header class="header">
+      <nav class="nav">
+        <p class="luxlogo"> ✨ Lux Teens</p>
         <ul class="navItems">
           <li class="nav-items">LUXDEV</li>
-          <li class="nav-items">ABOUT</li>
+          
           <li class="nav-items">COURSES</li>
           <li class="nav-items">EVENTS</li>
-          <li class="nav-items">ENROLL</li>
+          <li class="nav-items-bgcolor">ENROLL</li>
         </ul>
       </nav>
     </header>
@@ -34,14 +35,14 @@
         </p>
 
         <p class="barner-text">
-            Learn Programming, Web Apps Development, Data Science, Data Structures and Algorithms The Right Way.
+            Learn Programming, Web Apps Development, Data Science, Data Structures and Algorithms The Right Way 😊.
         </p>
 
         <p class="barner-text">
             We're trying to build an online coding school that's as good as MIT but as cheap as a gym membership.
         </p>
         <div>
-          <button class="getStarted">Get Started</button>
+          <button class="getStarted">Get Started <span style="color: red;">🐦</span></button>
         </div>
          </article>
 
@@ -128,62 +129,80 @@
     </section>
  <section>
       <h2 class="courses-heading"><b>OUR LATEST COURSES</b></h2>
+      <hr>
+
       <div class="courses">
         <article class="python">
           <h1>Python</h1>
-          <hr />
+          <hr>
+          
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            doloribus magni sed eligendi, id deserunt, rerum accusamus cumque
-            eius saepe temporibus maxime, tempora animi ex quidem voluptatum
-            doloremque qui cum.
+            
+Python was originally conceptualized by Guido van Rossum in the late 1980s as a member of the National Research Institute of Mathematics and Computer Science.
+
+Initially, it was designed as a response to the ABC programming language that was also foregrounded in the Netherlands.
+
+Python is a free and open source high level programming language which is interplated, which supports object oreinted, procedural oriented, functional and imperative oriented programming paradigm.
           </p>
 
           <p>
-            <button><b>Read More</b></button>
+            <button class="read-more-btn"><b>Read More</b></button>
           </p>
         </article>
         <article class="javascript">
           <h1>Javacript</h1>
-          <hr />
+          <hr>
+          
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            doloribus magni sed eligendi, id deserunt, rerum accusamus cumque
-            eius saepe temporibus maxime, tempora animi ex quidem voluptatum
-            doloremque qui cum.
+            JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications.
+
+JavaScript was initially developed for client-side and has been improved to server side programming language, also with the use of react native you can build Hybrid Mobile application.
+
+It is an object based language which employes the use of object and methods in programming.
+
+Remember - In JavaScripts objects are king, when you are good at Objects you are good in JavaScript.
+
+Language of the web
           </p>
           <p>
-            <button><b>Read More</b></button>
+            <button class="read-more-btn"><b>Read More</b></button>
           </p>
         </article>
         <article class="typescript">
-          <h1>Typescript</h1>
+          <h1>Typescript: </h1>
+
           <hr />
+          
+          
+          
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            doloribus magni sed eligendi, id deserunt, rerum accusamus cumque
-            eius saepe temporibus maxime, tempora animi ex quidem voluptatum
-            doloremque qui cum.
+            TypeScript is a programming language designed for large-scale JavaScript application development, it has been designed as a typed superset of JavaScript.
+
+This means we’ve actually been writing TypeScript this whole time! 🎉.This language allow us to use features from the most recent ECMAScript versions and even some features that are not even in the scope of the standard.
+
+Here we are going to learn TypeScript in Depth and use it to build demo apps Using angular and TypeScript.
           </p>
           <p>
-            <button><b>Read More</b></button>
+            <button class="read-more-btn"><b>Read More</b></button>
           </p>
         </article>
       </div>
     </section>
 <footer>
       <div class="footerItems">
-        <article class="">
-          <h1><b>Lux Tech Academy</b></h1>
+        <article class = "footer-article">
+          <h2 class="footer-h1">Lux Tech Academy</h2>
 
-          <p>Lorem ipsum dolor sit amet consecteturs</p>
-          <p>debitis corrupti eveniet similique</p>
-          <p>Dolore, saepe eos qui voluptatum eius eum!</p>
+          <p>Lux Tech Academy is a free online training BootCamp <br>which has crash and advance coding classes.
+
+We're trying <br>to build an online coding school 
+that's as good as MIT <br>but as cheap as a gym membership.</p>
+          
         </article>
-        <article>
-          <h1><b>Major Courses</b></h1>
-          <ul>
+        <article class = "footer-article">
+          <h2 class="footer-h1">Major Courses</h2>
+          <ul class="ul">
             <li>Javacript</li>
             <li>Python</li>
             <li>C++</li>
@@ -191,12 +210,18 @@
             <li>Machine Learning</li>
           </ul>
         </article>
-        <article class = "contact-us">
-          <h1><b>Contact Us</b></h1>
+        <article class = "footer-article">
+          <h2 class="footer-h1">Contact Us</h2>
           <p>
             P.O. Box 322, Thika, KENYA.</p>
             <p> Phone: (+254) 0798 166 628 </p>
-            <p> Email:luxtinc@gmail.com </p>      
+            <p> Email:luxtinc@gmail.com </p>
+            <div>
+                <i id="fa" class="fa fa-twitter"></i>
+                <i id="fa" class="fa fa-facebook"></i>
+                <i id="fa" class="fa fa-linkedin"></i>
+                <i id="fa" class="fa fa-slack"></i>
+            </div>     
           
         </article>
       </div>
